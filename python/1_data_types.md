@@ -86,3 +86,25 @@ Summary:
 - list / tuple → fast index access, slow membership
 - set / dict → fast membership / lookup, higher memory usage
 - hash-based structures trade memory for speed
+
+## Interview questions
+
+1️⃣ What does it mean that an object is mutable or immutable in Python, and how can you prove it in practice?
+
+(follow-up: why does += behave differently for lists and tuples?)
+
+2️⃣ Why can a tuple be used as a dictionary key, but a list cannot?
+
+(follow-up: when is a tuple NOT hashable?)
+
+3️⃣ Why is set faster than list for membership checks (x in collection)?
+
+(follow-up: what is the trade-off for this performance gain?)
+
+4️⃣ What does “hash-based” mean in the context of set and dict, and how does it affect time complexity?
+
+(follow-up: what does “amortized O(1)” mean?)
+
+5️⃣ Is dict ordered in Python, and since when? Why does this matter in practice?
+
+(follow-up: does this ordering come from hashing?)

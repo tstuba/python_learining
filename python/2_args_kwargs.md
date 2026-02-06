@@ -67,3 +67,25 @@ f(**data)
 - as a way to avoid proper API design
 
 \*args and \*\*kwargs are great for flexibility, but explicit parameters make APIs safer.
+
+## Interview questions
+
+1️⃣ What is the difference between \*args and \*\*kwargs, and what data types do they become inside the function?
+
+(follow-up: can \*args ever be a list? why?)
+
+2️⃣ What is the correct order of parameters in a function definition that uses \*args and \*\*kwargs, and why does Python enforce this order?
+
+(follow-up: what error do you get if the order is wrong?)
+
+3️⃣ How does argument unpacking work with \* and \*\*, and what happens if the provided arguments do not match the function signature?
+
+(follow-up: what happens if \*\*kwargs contains an unexpected key?)
+
+4️⃣ When is it a good idea to use \*args and \*\*kwargs, and when should you avoid them?
+
+(follow-up: why are they common in decorators and wrappers?)
+
+5️⃣ What are the risks of defining a function as def f(\*args, \*\*kwargs): and why is this often considered an anti-pattern?
+
+(follow-up: how does this affect readability and API contracts?)
