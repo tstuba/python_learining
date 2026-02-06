@@ -1,6 +1,6 @@
-## Data types
+# Data types
 
-### Mutable vs Immutable
+## Mutable vs Immutable
 
 A type is mutable if its state can be changed without creating a new object (i.e. without changing its identity in memory).
 
@@ -45,7 +45,7 @@ Mutable types: `list`, `set`, `dict`
 
 Immutable types: `tuple`, `str`, `int`, `float`, `bool`
 
-### List vs. Tuple vs. Set vs. Dict
+## List vs. Tuple vs. Set vs. Dict
 
 | Type  | Ordered | Mutable | Indexed | Hash-based |
 | ----- | ------- | ------- | ------- | ---------- |
