@@ -22,7 +22,7 @@ id(a) != id(b) # True
 ```
 
 In case of immutable types, operations like `+=` create a new object
-because the original object cannot be modified in place.
+because the original object cannot be modified in place. (immutable `__iadd__`, vs. mutable `__add__`)
 
 Mutable example:
 
