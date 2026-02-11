@@ -93,18 +93,43 @@ Summary:
 
 (follow-up: why does += behave differently for lists and tuples?)
 
+<details>
+<summary>Answer</summary>
+TBD
+</details>
+
 2️⃣ Why can a tuple be used as a dictionary key, but a list cannot?
 
 (follow-up: when is a tuple NOT hashable?)
+
+<details>
+<summary>Answer</summary>
+TBD
+</details>
 
 3️⃣ Why is set faster than list for membership checks (x in collection)?
 
 (follow-up: what is the trade-off for this performance gain?)
 
+<details>
+<summary>Answer</summary>
+TBD
+</details>
+
 4️⃣ What does “hash-based” mean in the context of set and dict, and how does it affect time complexity?
 
 (follow-up: what does “amortized O(1)” mean?)
 
+<details>
+<summary>Answer</summary>
+TBD
+</details>
+
 5️⃣ Is dict ordered in Python, and since when? Why does this matter in practice?
 
 (follow-up: does this ordering come from hashing?)
+
+<details>
+<summary>Answer</summary>
+TBD
+</details>

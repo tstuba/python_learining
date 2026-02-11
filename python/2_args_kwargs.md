@@ -74,18 +74,43 @@ f(**data)
 
 (follow-up: can \*args ever be a list? why?)
 
+<details>
+<summary>Answer</summary>
+TBD
+</details>
+
 2️⃣ What is the correct order of parameters in a function definition that uses \*args and \*\*kwargs, and why does Python enforce this order?
 
 (follow-up: what error do you get if the order is wrong?)
+
+<details>
+<summary>Answer</summary>
+TBD
+</details>
 
 3️⃣ How does argument unpacking work with \* and \*\*, and what happens if the provided arguments do not match the function signature?
 
 (follow-up: what happens if \*\*kwargs contains an unexpected key?)
 
+<details>
+<summary>Answer</summary>
+TBD
+</details>
+
 4️⃣ When is it a good idea to use \*args and \*\*kwargs, and when should you avoid them?
 
 (follow-up: why are they common in decorators and wrappers?)
 
+<details>
+<summary>Answer</summary>
+TBD
+</details>
+
 5️⃣ What are the risks of defining a function as def f(\*args, \*\*kwargs): and why is this often considered an anti-pattern?
 
 (follow-up: how does this affect readability and API contracts?)
+
+<details>
+<summary>Answer</summary>
+TBD
+</details>
