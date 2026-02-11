@@ -119,7 +119,7 @@ When you need:
 
 ## Interview questions
 
-1️⃣ What does a function with yield return?
+1️⃣ What does a function with `yield` return?
 
 <details>
 <summary>Answer</summary>
